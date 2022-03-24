@@ -1,5 +1,5 @@
 body{
-    background-color: #00FF00;
+    background-color: white;
 }
 
 .container{
@@ -11,9 +11,17 @@ body{
 h1{
     text-align: center;
 }
-img{
-    width:50%;
+.img_corpo{
+    width: 50%;
 }
 figure{
     text-align: center; 
+}
+.img_topo{
+    width: 100%;
+}
+p{
+    font-size: 1.8em;
+    text-indent: 50px;
+    text-align: justify;
 }
