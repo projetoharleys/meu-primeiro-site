@@ -11,8 +11,17 @@ body{
 h1{
     text-align: center;
 }
+h2{
+    text-align: center;
+}
 .img_corpo{
     width: 50%;
+}
+.img_insta{
+    width: 10%;
+}
+.img_twitter{
+    width: 10%;
 }
 figure{
     text-align: center; 
@@ -24,4 +33,7 @@ p{
     font-size: 1.8em;
     text-indent: 50px;
     text-align: justify;
+}
+a{
+    color: black;
 }
