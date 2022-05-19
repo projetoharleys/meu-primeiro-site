@@ -1,8 +1,22 @@
 html{
     scroll-behavior: smooth;
 }
+.itens_menu{
+    
+   text-align: center;
+}
+.itens_menu li{
+
+    font-size: 1.3em;
+    line-height: 1.5;
+}
 body{
     background-color: white;
+
+}
+section{
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 .container{
@@ -12,10 +26,14 @@ body{
 
 }
 h1{
-    text-align: center;
+    font-size: 2em;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 h2{
-    text-align: center;
+    font-size: 2em;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 .img_corpo{
     width: 50%;
@@ -27,7 +45,9 @@ h2{
     width: 10%;
 }
 figure{
-    text-align: center; 
+    text-align: center;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%; 
 }
 .img_topo{
     width: 100%;
@@ -36,8 +56,15 @@ p{
     font-size: 1.8em;
     text-indent: 50px;
     text-align: justify;
+    line-height: 1.5;
 }
 a{
     color: black;
+}
+footer{
+    background-color: ;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
 }
 
