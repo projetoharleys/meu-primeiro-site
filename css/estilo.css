@@ -106,7 +106,7 @@ footer{
 
 /* unvisited link */
 a:link {
-    color: #FFFACD; 
+    color:rgb(21, 179, 21);
   }
   
   /* visited link */
@@ -125,4 +125,16 @@ a:link {
   a:active {
     color: 	#6495ED; 
   }
+  
+.direita{
+    float: right;
+    margin-left: 2%; 
+    width: 30%;
+}
+
+.esquerda{
+    float: left;
+    margin-right: 2%; 
+    width: 30%;
+}
 
