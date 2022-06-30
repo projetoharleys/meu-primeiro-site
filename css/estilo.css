@@ -103,7 +103,9 @@ footer{
 #competitivo a:link{
     color: rgb(21, 179, 21);
 }
-
+#competitivo a:hover{
+    background-color: #ADD8E6;
+}
 /* unvisited link */
 a:link {
     color:rgb(21, 179, 21);
@@ -138,3 +140,19 @@ a:link {
     width: 30%;
 }
 
+.voltar a:hover{
+    background-color: purple;
+    color: black;
+}
+.voltar a:link{
+    background-color: #ADD8E6;
+    padding: 1%;
+}
+.voltar{
+    text-align: center;
+    text-indent: 40px;
+    font-size: 1.5em;
+}
+
+
+   
