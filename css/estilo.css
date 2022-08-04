@@ -159,6 +159,29 @@ a:link {
     text-indent: 40px;
     font-size: 1.5em;
 }
+table, th, td{
+    border: 3px dashed;
+    padding: 1.5%;
+    text-align: center;
+    font-family: font-family: 'Righteous', cursive;
+}
+td:first-child {
+    width: 40%;
+}
+td:first-child + td{
+    width: 60%;
+}
+th{
+    font-size: 4em;
+    font-weight: bolder;
+}
+audio{
+    width: 80%;
+}
+audio::-webkit-media-controls-panel{
+    background-color: rgb(5, 5, 5) !important
+}
+
 
 
    
