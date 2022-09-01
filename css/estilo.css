@@ -2,11 +2,16 @@ html{
     scroll-behavior: smooth;
 }
 .itens_menu{
-    
    text-align: center;
 }
-.itens_menu li{
+.menu{
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    background-color:rgba(176,196,222, 0.9);
 
+}
+.itens_menu li{
     font-size: 1.3em;
     line-height: 1.5;
     font-family: 'Fredoka One', cursive;
@@ -80,6 +85,13 @@ figure{
 
 .img_topo{
     width: 95%;
+    margin-top: 13%;
+}
+.logo{
+    text-align: center;
+}
+.img_logo{
+    width: 20%;
 }
 p{
     font-size: 1.5em;
@@ -201,7 +213,7 @@ input[type=text], select, input[type=email], input[type=submit], input[type=tel]
     border: 1px solid rgb(0, 0, 0);
     border-radius: 10px;
     box-sizing: border-box;
-    font-family: 'Baloo 2', cursive;
+    font-family: 'Righteous', cursive;
 }
 
 input[type=submit]:hover {
@@ -241,6 +253,7 @@ label {
 
 form{
     box-sizing: border-box;
+    font-family: 'Righteous', cursive;
 }
 
 @media screen and (max-width: 400px) {
